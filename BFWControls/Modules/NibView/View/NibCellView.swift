@@ -77,3 +77,11 @@ private extension UILabel {
     }
     
 }
+
+extension UITableViewCell {
+    
+    var cellView: NibCellView? {
+        return contentView.subviews.first as? NibCellView
+    }
+    
+}
