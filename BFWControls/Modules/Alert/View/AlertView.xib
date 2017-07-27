@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -97,39 +97,48 @@
                         <action selector="actionButton:" destination="-2" eventType="touchUpInside" id="Hgw-NK-Geg"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="[Detail]" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAW-Yp-zBH">
+                    <rect key="frame" x="8" y="65" width="284" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="Va2-nQ-GBe" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uZ3-Hb-Y6u" secondAttribute="bottom" constant="8" id="0ej-YU-LNT"/>
                 <constraint firstAttribute="trailing" secondItem="uZ3-Hb-Y6u" secondAttribute="trailing" constant="8" id="22F-ae-lbr"/>
                 <constraint firstItem="XwE-ND-HJR" firstAttribute="top" secondItem="RpR-KS-etR" secondAttribute="bottom" id="3rf-dg-lgk"/>
                 <constraint firstItem="QFr-wE-oRA" firstAttribute="top" secondItem="ZxU-1y-cua" secondAttribute="top" constant="8" id="478-Aa-1kp"/>
                 <constraint firstItem="l6w-Kv-MGK" firstAttribute="leading" secondItem="ZxU-1y-cua" secondAttribute="leading" id="52P-ap-cCh"/>
                 <constraint firstAttribute="trailing" secondItem="QFr-wE-oRA" secondAttribute="trailing" constant="8" id="5pA-BF-E4d"/>
                 <constraint firstItem="l6w-Kv-MGK" firstAttribute="top" secondItem="XwE-ND-HJR" secondAttribute="bottom" id="64t-rO-aiO"/>
-                <constraint firstItem="zhq-aX-3mS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uZ3-Hb-Y6u" secondAttribute="bottom" constant="8" id="Flg-Fo-7t9"/>
+                <constraint firstAttribute="trailing" secondItem="bAW-Yp-zBH" secondAttribute="trailing" constant="8" id="9iT-BD-oyZ"/>
+                <constraint firstItem="RpR-KS-etR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bAW-Yp-zBH" secondAttribute="bottom" constant="8" id="D9p-6z-OQ3"/>
                 <constraint firstItem="zhq-aX-3mS" firstAttribute="bottom" secondItem="8y6-17-sql" secondAttribute="top" id="HPN-su-hRe"/>
                 <constraint firstAttribute="trailing" secondItem="Va2-nQ-GBe" secondAttribute="trailing" id="IUi-DV-h84"/>
-                <constraint firstItem="l6w-Kv-MGK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uZ3-Hb-Y6u" secondAttribute="bottom" constant="8" id="Ifm-N3-z5n"/>
                 <constraint firstAttribute="trailing" secondItem="RpR-KS-etR" secondAttribute="trailing" id="Jg1-BH-MbE"/>
                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="KCb-PH-Yb2"/>
                 <constraint firstAttribute="trailing" secondItem="zhq-aX-3mS" secondAttribute="trailing" id="M4c-UW-9ra"/>
-                <constraint firstItem="RpR-KS-etR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uZ3-Hb-Y6u" secondAttribute="bottom" constant="8" id="NB9-gm-mF5"/>
                 <constraint firstItem="8y6-17-sql" firstAttribute="leading" secondItem="ZxU-1y-cua" secondAttribute="leading" id="Ncw-oR-k0P"/>
+                <constraint firstItem="zhq-aX-3mS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bAW-Yp-zBH" secondAttribute="bottom" constant="8" id="VO7-N5-He4"/>
+                <constraint firstItem="Va2-nQ-GBe" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bAW-Yp-zBH" secondAttribute="bottom" constant="8" id="XMx-lF-zsO"/>
                 <constraint firstAttribute="trailing" secondItem="l6w-Kv-MGK" secondAttribute="trailing" id="ZHO-JH-2xs"/>
+                <constraint firstItem="l6w-Kv-MGK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bAW-Yp-zBH" secondAttribute="bottom" constant="8" id="aIu-Fh-tCK"/>
+                <constraint firstItem="8y6-17-sql" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bAW-Yp-zBH" secondAttribute="bottom" constant="8" id="aOA-Om-iK0"/>
                 <constraint firstAttribute="trailing" secondItem="XwE-ND-HJR" secondAttribute="trailing" id="aeg-FI-hkm"/>
                 <constraint firstItem="QFr-wE-oRA" firstAttribute="leading" secondItem="ZxU-1y-cua" secondAttribute="leading" constant="8" id="e3f-GI-0m3"/>
                 <constraint firstItem="8y6-17-sql" firstAttribute="bottom" secondItem="Va2-nQ-GBe" secondAttribute="top" id="exj-VJ-SSL"/>
                 <constraint firstItem="RpR-KS-etR" firstAttribute="leading" secondItem="ZxU-1y-cua" secondAttribute="leading" id="hDW-E9-OhU"/>
+                <constraint firstItem="XwE-ND-HJR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="bAW-Yp-zBH" secondAttribute="bottom" constant="8" id="hOJ-Em-7pL"/>
                 <constraint firstItem="XwE-ND-HJR" firstAttribute="leading" secondItem="ZxU-1y-cua" secondAttribute="leading" id="jSu-7m-jIM"/>
                 <constraint firstItem="Va2-nQ-GBe" firstAttribute="leading" secondItem="ZxU-1y-cua" secondAttribute="leading" id="k0A-8n-4lD"/>
                 <constraint firstAttribute="trailing" secondItem="8y6-17-sql" secondAttribute="trailing" id="oJW-32-rc9"/>
                 <constraint firstItem="RpR-KS-etR" firstAttribute="top" secondItem="Va2-nQ-GBe" secondAttribute="bottom" id="pN5-ke-vSb"/>
                 <constraint firstItem="uZ3-Hb-Y6u" firstAttribute="leading" secondItem="ZxU-1y-cua" secondAttribute="leading" constant="8" id="pOk-mv-s2X"/>
-                <constraint firstItem="XwE-ND-HJR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uZ3-Hb-Y6u" secondAttribute="bottom" constant="8" id="rJL-yc-Ydg"/>
                 <constraint firstItem="zhq-aX-3mS" firstAttribute="leading" secondItem="ZxU-1y-cua" secondAttribute="leading" id="rLx-FS-aWo"/>
-                <constraint firstItem="8y6-17-sql" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uZ3-Hb-Y6u" secondAttribute="bottom" constant="8" id="sFo-5l-y2a"/>
+                <constraint firstItem="bAW-Yp-zBH" firstAttribute="leading" secondItem="ZxU-1y-cua" secondAttribute="leading" constant="8" id="vki-V6-oJs"/>
                 <constraint firstItem="uZ3-Hb-Y6u" firstAttribute="top" secondItem="QFr-wE-oRA" secondAttribute="bottom" constant="8" id="vzK-Sk-4vn"/>
+                <constraint firstItem="bAW-Yp-zBH" firstAttribute="top" secondItem="uZ3-Hb-Y6u" secondAttribute="bottom" constant="8" id="zxj-Fz-bbe"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -147,6 +156,7 @@
                 <outlet property="button5" destination="Va2-nQ-GBe" id="ivn-o9-suO"/>
                 <outlet property="button6" destination="8y6-17-sql" id="HD2-ru-8sg"/>
                 <outlet property="button7" destination="zhq-aX-3mS" id="7iN-cs-jI9"/>
+                <outlet property="detailLabel" destination="bAW-Yp-zBH" id="O9d-bd-toa"/>
                 <outlet property="messageLabel" destination="uZ3-Hb-Y6u" id="HZ8-ld-2gW"/>
                 <outlet property="titleLabel" destination="QFr-wE-oRA" id="CQW-1X-yze"/>
             </connections>

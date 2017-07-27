@@ -26,6 +26,7 @@ import UIKit
     
     @IBOutlet open weak var titleLabel: UILabel?
     @IBOutlet open weak var messageLabel: UILabel?
+    @IBOutlet open weak var detailLabel: UILabel?
     @IBOutlet open weak var button0: UIButton?
     @IBOutlet open weak var button1: UIButton?
     @IBOutlet open weak var button2: UIButton?
@@ -55,6 +56,15 @@ import UIKit
         }
         set {
             messageLabel?.text = newValue
+        }
+    }
+    
+    @IBInspectable open var detail: String? {
+        get {
+            return detailLabel?.text
+        }
+        set {
+            detailLabel?.text = newValue
         }
     }
     
@@ -161,7 +171,7 @@ import UIKit
     // MARK: - NibView
     
     open override var placeholderViews: [UIView]? {
-        return [titleLabel, messageLabel].flatMap { $0 }
+        return [titleLabel, messageLabel, detailLabel].flatMap { $0 }
     }
     
     open override func updateView() {
